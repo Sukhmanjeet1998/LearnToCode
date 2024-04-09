@@ -18,7 +18,7 @@ ECMAScript (ES) is a standardized specification for scripting languages, and Jav
 
 6) DataType conversion confusion
 
-7) 
+7) Why string to number conversion is confusing!
 
 42) Yes, Javascript does have classes. This feature was introduced with the ECMAScript 2015 specification(often referred as ES6). However, it's important to note that Javascript is primarily prototype-based language, and its classes are primarily syntactic sugar over existing prototype-based inheritance mechanisms. In other words its provides a more familiar syntax for developers coming from class-based languages such as Java or C++,but under the hood it works somewhat differently.
 
