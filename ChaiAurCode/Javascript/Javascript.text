@@ -27,7 +27,24 @@ In programming, a string is a sequence of characters enclosed within either sing
 
 10)
 
-11)
+11) Strings 
+String Interpolation : Injecting variables in string via Template Strings {use back-ticks (``) rather than the quotes ("") to define a string} .
+
+12)
+
+13)
+
+14)
+
+15)
+
+17)
+
+18)
+
+19)
+
+20)
 
 42) Yes, Javascript does have classes. This feature was introduced with the ECMAScript 2015 specification(often referred as ES6). However, it's important to note that Javascript is primarily prototype-based language, and its classes are primarily syntactic sugar over existing prototype-based inheritance mechanisms. In other words its provides a more familiar syntax for developers coming from class-based languages such as Java or C++,but under the hood it works somewhat differently.
 
