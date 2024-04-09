@@ -1,0 +1,25 @@
+1) Introduction to Javascript.
+
+2) Setting up environment in local machine .
+Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser. It is built on the Chrome V8 JavaScript engine, which powers Google Chrome, and it provides a way to run JavaScript on servers, enabling server-side scripting.
+
+3) Save and Work on Github.
+
+4) 
+
+
+42) Yes, Javascript does have classes. This feature was introduced with the ECMAScript 2015 specification(often referred as ES6). However, it's important to note that Javascript is primarily prototype-based language, and its classes are primarily syntactic sugar over existing prototype-based inheritance mechanisms. In other words its provides a more familiar syntax for developers coming from class-based languages such as Java or C++,but under the hood it works somewhat differently.
+
+"Object literals" and "objects" are related concepts in JavaScript, but they are not exactly the same thing.
+
+An "object" in JavaScript is a data structure that allows you to store key-value pairs. It is a fundamental data type in JavaScript and can hold properties and methods. Objects can be created in various ways, including using object literals, constructor functions, and the Object.create() method.
+
+An "object literal" is one way of creating an object in JavaScript. It's a syntactic notation for creating objects using curly braces {} and specifying key-value pairs inside those braces. When you create an object using an object literal, you define its properties and methods directly in the code.
+
+Yes, essentially, an "object" is the overarching concept, while an "object literal" is a specific syntax used to create objects in JavaScript. Object literals are a convenient way to define objects directly within your code, but they are just one of several methods available for creating objects.
+
+Not to repeat objects again of same properties and method we use constructor.
+
+new : constructor function.
+
+new -> empty object create (new instance) -> constructor function called because of new keyword with arguments passed -> return this;
