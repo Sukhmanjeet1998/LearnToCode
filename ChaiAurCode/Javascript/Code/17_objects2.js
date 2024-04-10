@@ -1,0 +1,1 @@
+// node ChaiAurCode/Javascript/Code/17_objects2.js

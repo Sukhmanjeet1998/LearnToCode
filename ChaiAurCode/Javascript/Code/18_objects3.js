@@ -1,0 +1,1 @@
+// node ChaiAurCode/Javascript/Code/18_objects3.js
