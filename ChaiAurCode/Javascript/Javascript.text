@@ -25,12 +25,15 @@ ECMAScript (ES) is a standardized specification for scripting languages, and Jav
 9) Data Type
 In programming, a string is a sequence of characters enclosed within either single quotes (') or double quotes ("). Strings can contain letters, numbers, symbols, and whitespace characters.
 
-10)
+10) Stack (Primitive {gets value}) and Heap (Non Primitive {gets Refrence})
+In JavaScript, memory management is abstracted away from the developer, and the specifics of stack and heap memory management are typically not directly exposed or controlled. However, JavaScript does use both stack and heap memory internally, and understanding their roles can help in understanding how JavaScript operates.
+
+Object : When dealing with objects in JavaScript, variables store references (memory addresses) to the actual objects stored in the heap. This means that when you modify an object through one reference, the changes are reflected across all references pointing to that object.
 
 11) Strings 
 String Interpolation : Injecting variables in string via Template Strings {use back-ticks (``) rather than the quotes ("") to define a string} .
 
-12)
+12) Number and Maths
 
 13)
 
