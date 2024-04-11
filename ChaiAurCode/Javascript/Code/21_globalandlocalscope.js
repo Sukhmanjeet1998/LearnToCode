@@ -1,0 +1,1 @@
+// node ChaiAurCode/Javascript/Code/21_globalandlocalscope.js

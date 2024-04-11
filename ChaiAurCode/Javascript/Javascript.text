@@ -45,9 +45,16 @@ String Interpolation : Injecting variables in string via Template Strings {use b
 
 18) Object (Part 2)
 
-19)
+19) Functions and parameters
 
-20)
+20) Functions with objects and array
+
+21) Global and Local Scope 
+
+22)
+
+23)
+
 
 42) Yes, Javascript does have classes. This feature was introduced with the ECMAScript 2015 specification(often referred as ES6). However, it's important to note that Javascript is primarily prototype-based language, and its classes are primarily syntactic sugar over existing prototype-based inheritance mechanisms. In other words its provides a more familiar syntax for developers coming from class-based languages such as Java or C++,but under the hood it works somewhat differently.
 
