@@ -57,12 +57,19 @@ String Interpolation : Injecting variables in string via Template Strings {use b
 
 24) Immediately Invoke Function Execution
 
-25)
+25) How does javascript execute code + call stack (left)
 
 26) Control Flow
 
 27) Loops
 
+28) While and do while Loops
+
+29) High Order Array
+
+30) Filter map and reduce
+
+31) DOM Introduction
 
 42) Yes, Javascript does have classes. This feature was introduced with the ECMAScript 2015 specification(often referred as ES6). However, it's important to note that Javascript is primarily prototype-based language, and its classes are primarily syntactic sugar over existing prototype-based inheritance mechanisms. In other words its provides a more familiar syntax for developers coming from class-based languages such as Java or C++,but under the hood it works somewhat differently.
 
