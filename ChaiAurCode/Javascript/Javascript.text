@@ -71,6 +71,10 @@ String Interpolation : Injecting variables in string via Template Strings {use b
 
 31) DOM Introduction
 
+32) innerHTML, innerText, textContent, getElementByClassName, getElementById, querySelector,
+
+33) firstElementChild, lastElementChild, parentElement, nextElementSibling, childNodes
+
 42) Yes, Javascript does have classes. This feature was introduced with the ECMAScript 2015 specification(often referred as ES6). However, it's important to note that Javascript is primarily prototype-based language, and its classes are primarily syntactic sugar over existing prototype-based inheritance mechanisms. In other words its provides a more familiar syntax for developers coming from class-based languages such as Java or C++,but under the hood it works somewhat differently.
 
 "Object literals" and "objects" are related concepts in JavaScript, but they are not exactly the same thing.
