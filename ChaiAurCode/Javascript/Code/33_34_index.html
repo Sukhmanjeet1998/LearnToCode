@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+
+    // Add Value 
+    function addLanguage(langName) {
+        const li = document.createElement("li");
+        li.innerHTML = `${langName}`;
+        document.querySelector(".language").appendChild(li);
+    }
+    addLanguage("Python");
+    addLanguage("C++");
+
+    // Optimize Approach
+    function addOptimizeWayLanguage(langName) {
+        const li = document.createElement("li");
+        document.querySelector(".language").appendChild(li);
+        const addText = document.createTextNode(langName);
+        li.appendChild(addText);
+        document.querySelector(".language").appendChild(li);
+    }
+    addOptimizeWayLanguage("golang");
+
+    // Edit value
+    const secondLang = document.querySelector("li:nth-child(2)");
+    console.log(secondLang);
+    // secondLang.innerHTML += " - New"; // Not valid approach
+
+    // Better approach
+    // 1
+    const newEle = document.createElement("li");
+    newEle.textContent = "Mojo";
+    secondLang.replaceWith(newEle);
+    // 2
+    const firstEle = document.querySelector("li:nth-child(1)");
+    firstEle.outerHTML = "<li>TypeScript</li>"
+    /*
+    // console.log(firstEle);
+    // const newEle2 = document.createElement("li");
+    // newEle2.textContent = "TypeScript";
+    // firstEle.replaceWith(newEle2);
+    */
+
+
+    // Remove Value
+    const LastEle = document.querySelector("li:last-child");
+    console.log(LastEle);
+    LastEle.remove(); 
+</script>
+</html>
